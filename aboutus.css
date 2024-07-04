@@ -1,0 +1,60 @@
+body {
+  height: 100%;
+  background-color: #f1f1f1;
+}
+
+.navbar {
+  background-color: white !important;
+  height: 90px;
+  font-color: #00215E;
+}
+
+.nav-link {
+  margin-left: 8px;
+  font-size: 14pt;
+  color: #00215E;
+}
+
+.nav-link:hover {
+  color: #F0A500;
+}
+
+.carousel-item img {
+  width: 900px;
+  height: 600px;
+  object-fit: cover;
+}
+
+footer {
+  margin-top: 50px;
+  background-color: #00215E !important;
+  color: #F0A500;
+}
+
+footer a {
+  text-decoration: none;
+  color: #F0A500;
+}
+
+footer a:hover {
+  color: white;
+}
+
+.container.my-5 .row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container.my-5 .col-md-4 {
+  flex: 0 0 auto;
+}
+
+.container.my-5 img {
+  max-width: 100%;
+  height: auto;
+}
+
+.text-center {
+  text-align: center; /* Ensure centered alignment */
+}

@@ -1,0 +1,237 @@
+
+
+h2 {
+  font-size: 30px;
+}
+
+h3 {
+  font-size: 18px;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+
+a {
+  color: inherit;
+  display: inline-block;
+  line-height: inherit;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+a, a:hover, a:focus, a:active, button, button:focus,
+.btn, .btn:focus, input, input:focus, select, textarea, .slick-slide {
+  text-decoration: none;
+  outline: 0;
+}
+
+/* ---Section Space--- */
+.mt-no-text {
+  margin-top: 100px;
+}
+
+
+/*-- Message --*/
+
+.gray-bg {
+  background: #f8f8f8;
+}
+
+.comment-box .input-area {
+  padding: 10px;
+}
+
+.contact-us-area .form-message {
+  overflow: hidden;
+  margin-left: 15px;
+  margin-right: 15px;
+  padding-bottom: 15px;
+  margin-top: 20px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+
+.contact-us-area .comment-box h5 {
+  font-weight: 600;
+  font-size: 22px;
+  margin-bottom: 30px;
+}
+
+.contact-info-item {
+  border: 1px solid #F0A500;
+  text-align: center;
+  padding: 60px 20px;
+  margin-bottom: 30px;
+}
+
+.contact-info-item .con-info-icon {
+  border: 1px solid #F0A500;
+  border-radius: 100px;
+  color: #F0A500;
+  font-size: 35px;
+  margin: 0 auto 20px;
+  -webkit-transition: 0.4s;
+  -o-transition: 0.4s;
+  transition: 0.4s;
+  line-height: 60px;
+  height: 60px;
+  width: 60px;
+}
+
+.contact-info-item:hover .con-info-icon {
+  background-color: #F0A500;
+  color: #fff;
+}
+
+
+/*----------------------------------------*/
+/*     Components - Button
+/*----------------------------------------*/
+.flosun-button {
+  display: inline-block;
+  font-size: 15px;
+  font-weight: 500;
+  font-family: "Poppins", sans-serif;
+  height: 45px;
+  letter-spacing: 0.025em;
+  line-height: 45px;
+  padding: 0 30px;
+  text-align: center;
+  vertical-align: middle;
+  width: auto;
+  -webkit-transition: all 0.3s ease 0s;
+  -o-transition: all 0.3s ease 0s;
+  transition: all 0.3s ease 0s;
+}
+
+.flosun-button.secondary-btn:after {
+  content: '';
+  position: absolute;
+  z-index: -1;
+  width: 0%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  -webkit-transition: all 0.3s;
+  -o-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+.flosun-button.secondary-btn:hover:after {
+  width: 100%;
+}
+
+.flosun-button.secondary-btn.theme-color {
+  position: relative;
+  background: #F0A500;
+  z-index: 1;
+}
+
+.flosun-button.secondary-btn.theme-color:after {
+  background: #000000;
+  color: white;
+}
+
+
+/*----------------------------------------*/
+/*    Components - Breadcrumb
+/*----------------------------------------*/
+.breadcrumbs-area {
+  padding: 100px 0;
+}
+
+.breadcrumbs-area:before {
+  background: #ffffff none repeat scroll 0 0;
+  opacity: .3;
+  content: "";
+  height: 100%;
+  left: 0;
+  top: 0;
+  -webkit-transition: .3s;
+  -o-transition: .3s;
+  transition: .3s;
+  width: 100%;
+  position: absolute;
+}
+
+.breadcrumbs-area .breadcrumb-content ul {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 20px;
+}
+
+.breadcrumbs-area .breadcrumb-content ul li {
+  color: #000000;
+  position: relative;
+}
+
+.breadcrumbs-area .breadcrumb-content ul li a:hover {
+  color: #F0A500;
+}
+
+.breadcrumbs-area .breadcrumb-content ul li:after {
+  color: #000000;
+  content: '>';
+  font-size: 16px;
+  vertical-align: middle;
+  padding: 0 10px;
+  font-weight: 400;
+}
+
+.breadcrumbs-area .breadcrumb-content ul li:last-child:after {
+  display: none;
+}
+
+.navbar {
+
+  background-color: white !important;
+  height: 90px;
+  font-color: #00215E;
+}
+
+.nav-link {
+  margin-left: 8px;
+  font-size: 14pt;
+  color: #00215E;
+}
+
+.nav-link:hover {
+  color: #F0A500;
+}
+
+footer {
+  margin-top: 50px;
+  background-color: #00215E !important;
+  color: #F0A500;
+}
+
+footer a {
+  text-decoration: none;
+  color: #F0A500;
+}
+
+footer a:hover {
+  color: white;
+}

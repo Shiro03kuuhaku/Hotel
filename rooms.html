@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <title>Rooms Nothing's Hotel</title>
+  <link rel="stylesheet" type="text/css" href="rooms.css">
+</head>
+<body>
+
+  <!-- header -->
+  <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+      <div class="container-fluid">
+        <a class="navbar-brand" style="font-weight: bold; font-size: 20pt; color: #F0A500; margin-left: 50px;" href="#">
+          <i class="fas fa-hotel"></i> | Nothing'S Hotel</i>
+        </a>
+        <!-- Links -->
+        <ul class="navbar-nav" style="margin-right: 50px;">
+            <li class="nav-item">
+                <a class="nav-link" href="homepage.php"><i class="fas fa-home"></i> Home</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="aboutus.html"><i class="fas fa-address-card"></i> About Us</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="rooms.html"><i class="fas fa-bed"></i> Rooms</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="fasilitas.html"><i class="fas fa-tv"></i></i> Facilities</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="contact-us.html"><i class="fas fa-address-book"></i></i> Contact |</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#"><i class="fas fa-user fa-lg" style="margin-right: 20px;"></i></a>
+            </li>
+        </ul>
+      </div>
+  </nav>
+    <br>
+    <br>
+  <!-- header end -->
+
+  <!-- rooms -->
+
+  <!-- FORM INPUT -->
+  <div class="container" style="background-color: #00215E; border-radius: 15px;">
+    <form action="" style="display: flex;">
+      <div class="mb-4 mt-3" style="margin-left: 50px;">
+        <label for="roomtype" class="form-label">Room Type:</label>
+        <select class="form-select" id="roomtype" name="roomtype">
+            <option value="standard" selected disabled hidden>Select room type</option>
+            <option value="standard">Standard Room</option>
+            <option value="deluxe">Deluxe Room</option>
+            <option value="executive">Executive Room</option>
+        </select>
+    </div>
+
+      <div class="mb-4 mt-3" style="margin-left: 10px;">
+          <label for="numberofroom" class="form-label">Number Of Room:</label>
+          <input type="number" class="form-control" rows="5" id="numberofroom" placeholder="Enter number" name="numberofroom">
+      </div>
+
+      <div class="mb-4 mt-3" style="margin-left: 10px;">
+          <label for="cekin" class="form-label">Check In:</label>
+          <input type="date" class="form-control" rows="5" id="cekin" name="cekin">
+      </div>
+      
+      <div class="mb-4 mt-3" style="margin-left: 10px;">
+          <label for="cekout" class="form-label">Check Out:</label>
+          <input type="date" class="form-control" rows="5" id="cekout" name="cekout">
+      </div>
+
+      <div class="mb-4 mt-5" style="margin-left: 40px;">
+          <button type="submit" class="btn" style="background-color: #F0A500; color: navy; width: 200px;">Search</button>
+      </div>
+    </form>
+  </div>
+  <br>
+  <br>
+
+<div class="container" style="text-align: center;">
+    <h1 style="margin-top: 40px; margin-bottom: 50px; text-align: left;">Standart Room</h1>
+    <div class="row">
+        <div class="col-md-6">
+            <div class="card" style="margin-bottom: 20px;">
+                <img class="card-img-top" src="asset/images/bed3.jpg" alt="Card image" style="width: 100%;">
+            </div>
+        </div>
+        <div class="col-md-6">
+            <div class="card" style="margin-bottom: 20px;">
+                <div class="card-body">
+                    <h4 class="card-title">Detail Room</h4>
+                    <p class="card-text">Tempat Tidur: Double bed yang nyaman dengan linen berkualitas.</p>
+
+                    <p class="card-text">Kamar Mandi: Kamar mandi pribadi dengan shower, handuk bersih, dan perlengkapan mandi.</p>
+
+                    <p class="card-text">Fasilitas: TV layar datar dengan saluran kabel untuk hiburan di kamar, AC untuk menjaga suhu kamar tetap nyaman, ketel listrik untuk membuat teh atau kopi, meja kerja, kursi, lemari, dan lampu baca, akses Wi-Fi gratis untuk tetap terhubung dengan keluarga dan teman.</p>
+
+                    <a href="#" class="btn" style="background-color: #F0A500;float: right;">BOOK NOW</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <h1 style="margin-top: 40px; margin-bottom: 50px; text-align: left;">Deluxe Room</h1>
+    <div class="row">
+        <div class="col-md-6">
+            <div class="card" style="margin-bottom: 20px;">
+                <img class="card-img-top" src="asset/images/bed2.jpg" alt="Card image" style="width: 100%;">
+            </div>
+        </div>
+        <div class="col-md-6">
+            <div class="card" style="margin-bottom: 20px;">
+                <div class="card-body">
+                    <h4 class="card-title">Detail Room</h4>
+                    <p class="card-text">Tempat Tidur: King-size bed yang luas dan nyaman.</p>
+
+                    <p class="card-text">Kamar Mandi: Kamar mandi pribadi dengan shower, bathtub terpisah, handuk mewah, dan perlengkapan mandi premium.</p>
+
+                    <p class="card-text">Fasilitas: TV layar datar besar dengan saluran kabel untuk hiburan di kamar, AC, Coffe Maker, minibar dengan pilihan minuman dan makanan ringan, meja kerja, kursi, sofa, lemari besar, dan lampu baca, Akses Wi-Fi gratis dan stasiun pengisian daya untuk perangkat elektronik.</p>
+
+                    <a href="#" class="btn" style="background-color: #F0A500;float: right;">BOOK NOW</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <h1 style="margin-top: 40px; margin-bottom: 50px; text-align: left;">Executive Room</h1>
+    <div class="row">
+        <div class="col-md-6">
+            <div class="card" style="margin-bottom: 20px;">
+                <img class="card-img-top" src="asset/images/bed4.jpg" alt="Card image" style="width: 100%;">
+            </div>
+        </div>
+        <div class="col-md-6">
+            <div class="card" style="margin-bottom: 20px;">
+                <div class="card-body">
+                    <h4 class="card-title">Detail Room</h4>
+                    
+                    <p class="card-text">Tempat Tidur: King-size bed dengan linen berkualitas tinggi.</p>
+
+                    <p class="card-text">Kamar Mandi: Kamar mandi pribadi dengan shower, bathtub terpisah, handuk mewah, dan perlengkapan mandi premium.</p>
+
+                    <p class="card-text">Fasilitas: Ruang duduk terpisah dengan sofa yang nyaman, TV layar datar besar dengan saluran kabel premium, AC, Coffe Maker, minibar dengan pilihan minuman dan makanan ringan, meja kerja yang luas, kursi ergonomis, lemari besar dengan brankas, dan lampu baca, Akses Wi-Fi gratis, stasiun pengisian daya untuk perangkat elektronik, dan telepon dengan layanan kamar 24 jam</p>
+
+                    <a href="#" class="btn" style="background-color: #F0A500;float: right;">BOOK NOW</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+    <!-- FOOTER -->
+    <section class="">
+        <footer>
+            
+            <div class="container p-4">
+                <div class="row">
+                    <!--Grid column-->
+                    <div class="col-lg-6 col-md-12 mb-4 mb-md-0">
+                        <h5 class="text-uppercase">Nothing's Hotel</h5>
+                        <p>
+                           Welcome to our sanctuary of comfort and convenience, where every room reservation is a promise of a memorable stay. Book your perfect escape today and embark on a journey of relaxation and luxury.  
+                        </p>
+                    </div>
+
+                    <!--Grid column-->
+                    <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+                        <h5 class="text-uppercase">Our Social Media</h5>
+                        <ul class="list-unstyled mb-0" style="display: flex;">
+                            <li style="padding-left: 15px;">
+                                <a href="#">
+                                    <i class="fa-brands fa-youtube fa-lg"></i>
+                                </a>
+                            </li>
+                            <li style="padding-left: 15px;">
+                                <a href="#">
+                                    <i class="fa-brands fa-instagram fa-lg"></i>
+                                </a>
+                            </li>
+                            <li style="padding-left: 15px;">
+                                <a href="#">
+                                    <i class="fa-brands fa-twitter fa-lg"></i>
+                                </a>
+                            </li>
+                            <li style="padding-left: 15px;">
+                                <a href="#">
+                                    <i class="fa-brands fa-facebook-f fa-lg"></i> 
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <!--Grid column-->
+                    <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+                        <h5 class="text-uppercase">Address</h5>
+                        <ul class="list-unstyled mb-0">
+                            <li>
+                                <a href="#">123 Main Street</a>
+                            </li>
+                            <li>
+                                <a href="#">Surabaya, Jawa Timur</a>
+                            </li>
+                            <li>
+                                <a href="#">Indonesia</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <!--Grid column-->
+                </div>
+                <!--Grid row-->
+            </div>
+            <!-- Grid container -->
+
+            <!-- Copyright -->
+            <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+                © Copyright :
+                <a class="text-white" href="#">Nothing's</a>
+            </div>
+            <!-- Copyright -->
+        </footer>
+        <!-- Footer -->
+    </section>
+<script src="js/bootstrap.min.js"></script>
+</body>
+</html>
+  
+

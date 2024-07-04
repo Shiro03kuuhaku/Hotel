@@ -1,0 +1,90 @@
+body {
+    width: *;
+    height: 100%;
+    background-color: #f1f1f1;
+}
+
+.container .btn:hover{
+    background-color: #E5890A !important;
+}
+
+.navbar {
+
+    background-color: white !important;
+    height: 90px;
+    font-color: #00215E;
+}
+
+.nav-link {
+    margin-left: 8px;
+    font-size: 14pt;
+    color: #00215E;
+}
+
+.nav-link:hover {
+    color: #F0A500;
+}
+
+.carousel-item .h1_jumbotron{
+    margin-top: -400px;
+}
+
+label {
+    color: #F0A500;
+}
+
+h2 {
+    margin-left: 50px;
+    margin-top: 200px;
+    font-family: monospace sans-serif fantasy !important;
+    -webkit-transition: 0.5s ease;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+h2:hover {
+    -webkit-transform: scale(1.05);
+    transform: scale(1.05);
+}
+
+.card{
+    -webkit-transition: 0.5s ease;
+    transition: 0.5s;
+    cursor: pointer;
+    text-align: left;
+}
+
+.card:hover{
+    -webkit-transform: scale(1.05);
+    transform: scale(1.05);
+}
+
+footer {
+    margin-top: 50px;
+    background-color: #00215E !important;
+    color: #F0A500;
+}
+
+footer a {
+    text-decoration: none;
+    color: #F0A500;
+}
+
+footer a:hover {
+    color: white;
+}
+
+.card {
+    margin-bottom: 20px;
+}
+
+select {
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    background-image: url('path/to/dropdown-arrow.png');
+    background-repeat: no-repeat;
+    background-position: right center;
+    padding-right: 20px;
+}
+

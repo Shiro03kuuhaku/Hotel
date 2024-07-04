@@ -1,0 +1,182 @@
+body {
+    width: *;
+    height: 100%;
+    background-color: #f1f1f1;
+}
+
+.container .btn:hover{
+    background-color: #E5890A !important;
+}
+
+.navbar {
+
+    background-color: white !important;
+    height: 90px;
+    font-color: #00215E;
+}
+
+.nav-link {
+    margin-left: 8px;
+    font-size: 14pt;
+    color: #00215E;
+}
+
+.nav-link:hover {
+    color: #F0A500;
+}
+
+.home {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background: url(asset/images/hotels.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 25px;
+    margin-bottom: 0px;
+}
+ 
+.home .content {
+    max-width: 600px;
+    color: #fff;
+}
+
+.content h2 {
+    font-size: 3em;
+     letter-spacing: .03em;
+}
+
+.content p {
+    margin: 10px 0 40px;
+}
+
+.content a {
+    color: #fff;
+    text-decoration: none;
+    border: 2px solid #fff;
+    font-weight: 500;
+    padding: 10px 40px;
+    border-radius: 40px;
+    transition: .5s;
+} 
+
+.home .wrapper-login {
+    position: relative;
+    width: 500px;
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 30px; 
+    border-radius: 10px; 
+    margin: auto;
+}
+
+.wrapper-login h2 {
+    font-size: 2em;
+    color: #fff;
+    text-align: center;
+}
+
+.wrapper-login .input-box {
+    position: relative;
+    width: 100%;
+    height: 50px;
+    margin: 20px 0;
+}
+
+.input-box input {
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    border: 1px solid #fff;
+    outline: none;
+    border-radius: 40px;
+    font-size: 1em;
+    color: #fff;
+       padding: 0 25px 0 45px;
+
+}
+
+.input-box label {
+    position: absolute;
+    top: 25%;
+    left: 45px;
+/*    transform: translate(-50%);*/
+    font-size: 1em;
+    color: #fff;
+    pointer-events: none;
+    text-align: center;
+    padding: 0;
+}
+
+.input-box input:focus + label,
+.input-box input:valid + label {
+    top: 0;
+    left: 45px;
+    font-size: 0.75em;
+    color: #ccc;
+}
+
+
+.input-box .icon {
+    position: absolute;
+    top: 14px;
+    left: 15px;
+    font-size: 1.2em;
+    color: #fff;
+}
+
+.wrapper-login .btn {
+    width: 100%;
+    height: 50px;
+    border: none;
+    outline: none;
+    border-radius: 40px;
+    background: linear-gradient(90deg,#FF9A00,#F0A500);
+    box-shadow: 0 8px 10px rgba(0, 0, 0, .5);
+    cursor: pointer;
+    font-size: 1em;
+    color: #fff;
+    font-weight: 500;
+}   
+
+}
+
+.content a:hover {
+    background: #F0A500;
+}
+
+.wrapper-login .login-link {
+    font-size: .9em;
+    color: #fff;
+    text-align: center;
+    margin: 30px 0;
+}
+
+.login-link p a{
+    color: #fff;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.login-link p a:hover{
+    text-decoration: underline;
+}
+
+footer {
+    background-color: #00215E !important;
+    color: #F0A500;
+}
+
+footer a {
+    text-decoration: none;
+    color: #F0A500;
+}
+
+footer a:hover {
+    color: white;
+}
+
+
+
