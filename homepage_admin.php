@@ -62,22 +62,7 @@ $no = 1;
     <div class="main-content" style="margin-left: 200px;">
         <section class="content">
             <table class="table table-striped">
-            <div class="card">
-                    <h3>Total Users</h3>
-                    <p>1</p>
-                </div>
-                <div class="card">
-                    <h3>Total Customers</h3>
-                    <p>3</p>
-                </div>
-                <div class="card">
-                    <h3>Total Bedroom</h3>
-                    <p>7</p>
-                </div>
-                <div class="card">
-                    <h3>Total Orders</h3>
-                    <p>2</p>
-                </div>
+            
             </table>
         </section>
     </div>
